@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# 构建产物
+.build/
+dist/
+*.app
+*.dmg
+
+# 图标为 build 时自动生成，不入库
+recorder/Resources/AppIcon.icns
